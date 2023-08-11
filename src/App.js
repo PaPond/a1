@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <h2>hello world!</h2>
-      <div className='title'>สวัสดีนะไอ้เวร</div>
+      <div className='title'>สวัสดีครับท่านสมาชิก</div>
     </>
   )
 }
