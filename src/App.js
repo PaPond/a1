@@ -4,8 +4,6 @@ import Button from './class-components'
 import {Calculator} from './calculator'
 import {EventData,Table} from './event-data'
 
-
-
 export default function App(){
   return (
   <> 
