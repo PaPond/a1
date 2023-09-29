@@ -45,9 +45,9 @@ export default function FormCheck(){
                 styles.map((st,i) => {
                     return (
                         <div className="form-check form-check-inline mb-2">
-                            <input type="radio" id = {'check'+i} value = {st}
+                            <input type="checkbox" id = {'check'+i} value = {st}
                             className="form-check-input" onChange={onChangeCheck}/>
-                            <label htmlFor = {'check'+1} className="form-check-label">{st}</label>
+                            <label htmlFor = {'check'+i} className="form-check-label">{st}</label>
                         </div>
                     )
                 })
@@ -58,9 +58,9 @@ export default function FormCheck(){
                 sizes.map((sz,i) => {
                     return (
                         <div className="form-check form-check-inline mb-2">
-                            <input type="radio" id = {'radio'+i} value = {sz}
+                            <input type="radio" id = {'radio'+i} name = "fontSize" value = {sz}
                             className="form-check-input" onChange={onChangeRadio}/>
-                            <label htmlFor = {'radio'+1} className="form-check-label">{sz}</label>
+                            <label htmlFor = {'radio'+i} className="form-check-label">{sz}</label>
                         </div>
                     )
                 })
